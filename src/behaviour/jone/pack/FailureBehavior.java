@@ -41,7 +41,6 @@ public class FailureBehavior implements Serializable {
 			failRate = randInt(from, to);
 			numberOfSimulations = ((failRate * (numberOfMessages)) / 100);
 			counter = 0;
-			System.out.println("Regenerate" + numberOfSimulations + " ");
 		}
 	}
 

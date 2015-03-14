@@ -9,7 +9,7 @@ public class Appliation {
 		for (int i = 0; i < 500; i++) {
 			fb.monitor();
 			if (fb.canSimulate()) {
-				System.out.println(fb.getNumberOfSimulations());
+				System.out.println(fb.canSimulate());
 				fb.simulate();
 
 			} else {

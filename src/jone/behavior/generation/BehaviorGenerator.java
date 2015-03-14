@@ -46,8 +46,6 @@ public class BehaviorGenerator {
 		System.out.println("Behavior type: " + fileExtensions[choice-1]);
 		System.out.println("Storage path: " + storagePath);
 		
-		System.out.println("Countine? ");
-		input.nextLine();
 		
 		String fullPath = storagePath + "profile." + fileExtensions[choice-1];
 		fb = new FailureBehavior(from, to, numberOfMessages);
